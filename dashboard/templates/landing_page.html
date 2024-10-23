@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeraTutor</title>
+    <style>
+        /* Reset some default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('bg.jpg'); /* Add your image path here */
+            background-size: cover; /* Make the image cover the entire background */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Avoid tiling */
+        }
+
+        /* Main container that holds all elements */
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        /* Main heading styles */
+        .main-heading {
+            font-size: 4rem; /* Large font size */
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px; /* Space between heading and caption */
+            position: absolute;
+            top: 8%; /* Adjust this value to control how far down from the top the container should be */
+            left: 46%;
+            transform: translateX(-50%); /* Center the container horizontally */
+            text-align: center;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        /* Caption styles */
+        .caption {
+            font-size: 1.5rem;
+            color: #636668;
+            margin-bottom: 30px; /* Space between caption and button */
+            position: absolute;
+            top: 17%; /* Adjust this value to control how far down from the top the container should be */
+            left: 46%;
+            transform: translateX(-50%); /* Center the container horizontally */
+            text-align: center;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        .btn-15 {
+          position: absolute;
+          top: 30%; /* Adjust this value to move the button vertically */
+          left: 42%; /* Adjust this value to move the button horizontally */
+          border: none;
+          background-color: #22373e; /* Button background color */
+          color: white; /* Button text color */
+          padding: 15px 30px; /* Adjust padding for button size */
+          font-size: 1.2rem;
+          border-radius: 5px;
+          cursor: pointer;
+          text-decoration: none;
+          transition: background-color 0.3s ease; /* Smooth transition for hover */
+        }
+
+        .btn-15:hover {
+            background-color: grey; /* Change background color to grey on hover */
+        }
+
+
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .main-heading {
+                font-size: 3rem; /* Smaller font size for smaller screens */
+            }
+
+            .caption {
+                font-size: 1.2rem;
+            }
+
+            .btn-15 {
+                font-size: 1rem;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+  <h1 class="main-heading">Mera Tutor</h1>
+  <p class="caption">Next Gen Education tool</p>  
+  <a href="bag.html" class="btn-15">Go to Chat</a>
+    
+</body>
+</html>

@@ -10,9 +10,8 @@
 1. [Built With](#built-with)
 1. [The Team](#team)
 1. [License](#license)
-1. [Acknowledgments](#acknowledgments)
 
-## Short description 
+## Short Description 
 
 **MeraTutor** - AI-powered virtual teacher ensures continuous, personalized learning remotely.
 
@@ -52,7 +51,7 @@ This AI-powered learning system personalizes the educational experience for ever
 
 ### Demo video
 
-[![Demo](./images/tutor.jpeg)](https://www.youtube.com/watch?v=7Wijl7lTYAI "TheHeroLoop")
+[![Demo](./images/tutor.jpeg)](https://www.youtube.com/watch?v=7Wijl7lTYAI "MeraTutor")
 
 For GitHub use CTRL+click (on Windows and Linux) or CMD+click (on MacOS) on the link to open in new window.
 Please click on the image to view the video on YouTube.
@@ -124,7 +123,7 @@ MeraTutor aims to create a fairer education system where every student has the c
 ![Roadmap](./images/Roadmap.jpg)
 
 ### Built with
-![Techonology](./images/tech_logos.jpg)
+![Techonology](./images/arch1.jpeg)
 
 ### Getting started
 

@@ -1,13 +1,12 @@
 # MeraTutor ![Logo](./images/tutor.jpeg)
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 ## Contents
-1. [Short Description](## Short description )
+1. [Short Description](#short-description)
 1. [Demo Video](#demo-video)
 1. [The Architecture](#architecture-overview)
 1. [Long Description](#long-description)
 1. [Project Roadmap](#project-roadmap)
 1. [Live demo](#live-demo)
-1. [Addtional Video links](#Additional-video-demo-links)
 1. [Built With](#built-with)
 1. [The Team](#team)
 1. [License](#license)
@@ -51,10 +50,28 @@ To solve the problems of personalizing education and making it accessible for al
   
 This AI-powered learning system personalizes the educational experience for every student, ensuring equitable access to quality education. It continuously adapts to each student’s progress. By acting as a personal tutor, this system empowers all students, regardless of their background or learning challenges, to reach their full potential and thrive in their educational journey.
 
+### Demo video
+
+[![Demo](./images/tutor.jpeg)](https://www.youtube.com/watch?v=7Wijl7lTYAI "TheHeroLoop")
+
+For GitHub use CTRL+click (on Windows and Linux) or CMD+click (on MacOS) on the link to open in new window.
+Please click on the image to view the video on YouTube.
 
 ### Architecture Overview
 
 ![Architecture](./images/arch.jpeg)
+
+1. Student ingests the books and study material into the MeraTutor. Also he sets the parameters to personalize his learning. 
+
+2. The student then asks the question
+
+3. Based on the question the appropriate SME (AI agent) is called to answer the question. 
+
+4. These AI agents get their power from IBM watsonx LLM
+
+5. After that, the student can use another AI agent to play a Quiz to check his knowledge. The agent also provides score and feedback based on the answers
+
+6. The Student can finally find assignments that are created based on the concepts he learned.
 
 ### Long Description
 
@@ -110,8 +127,66 @@ MeraTutor aims to create a fairer education system where every student has the c
 ![Techonology](./images/tech_logos.jpg)
 
 ### Getting started
-* Using the RaspController App / vnc viewer software (or similar) login into the Pi and run the executable code
-* Get a trash near to the SwachBIN camera and see it springing into action
+
+### Setup
+
+This code works on Python3+ versions.
+
+### Clone the repository
+
+## With Docker:
+
+$ git clone https://github.com/MeraTutor/MeraTutor-Webapp.git
+
+$ MeraTutor-Webapp/
+
+## Install Docker
+https://docs.docker.com/engine/install/ubuntu/
+
+## Build docker image
+
+$ docker build -t aitutor_docker .
+
+Note: ensure in app.py port is mentiond as 8080
+
+$ docker run -it -p 8080:8080 aitutor_docker
+
+In Browser run with 127.0.0.1:8080
+
+## To push:
+
+$docker login
+
+  Username: XXXX
+  
+  Password: XXXX
+  
+$ docker tag aitutor_docker aitutor/aitutor_docker:1.0.0
+
+$ docker push aitutor/aitutor_docker:1.0.0
+
+## Without Docker:
+
+## Install the required libraries
+
+$ pip3 install -r requirements.txt
+
+## Clone the repository
+
+$ git clone https://github.com/MeraTutor/MeraTutor-Webapp.git
+
+$ MeraTutor-Webapp/
+
+## Run app.py
+
+$ python3 app.py 
+
+or
+
+$ python -m flask run
+
+In Browser run with 127.0.0.1:5000
+
 
 ### Live Demo
 [Smartly IoT Realtime Dashboard Demo](http://169.51.206.185:31539/)

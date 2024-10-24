@@ -37,16 +37,6 @@ MeraTutor helps students continue learning, even when they can't go to school be
 
 It also supports students with special learning needs by giving personalized attention and lessons that are easier to understand. It acts like a tutor, offering assignments, asking questions, and giving helpful feedback to keep students on track. If a student struggles with a topic, the virtual tutor can re-explain it in a simpler way. By providing continuous and tailored learning, MeraTutor make sure students don’t miss out on education, even during difficult situations, and helps them stay motivated and engaged in their studies.
 
-### IBM AI service(s) used
-- [IBM Watson Machine learning](https://cloud.ibm.com/catalog/services/watson-machine-learning)
-  We used IBM Watson Machine Learning to run and manage our AI models that help the learning system work effectively. This tool allows us to create personalized responses, quizzes, and feedback for students, making sure the system adapts to each student's needs.
-- [IBM Watsonx Prompt Lab (with Granite-20B Multilingual foundational model)](https://www.ibm.com/watsonx?utm_content=SRCWW&p1=Search&p4=43700076605828901&p5=e&gclid=CjwKCAjwysipBhBXEiwApJOcuz1PY3AhyOywNZ75iQZFK1tdjMKvi0V0VIvdY_qeas-M7QReiaDpixoCI2AQAvD_BwE&gclsrc=aw.ds) - IBM Watsonx Prompt Lab, which uses the Granite-20B Multilingual model, powers our AI virtual tutor. It helps the virtual tutor understand and answer student questions in different languages. This means students get explanations that fit their understanding, no matter their language or background.
-- [IBM Watson Speech to Text](https://cloud.ibm.com/catalog/services/spech-to-text) - Watson Speech to Text changes spoken words into written text. We used this feature so students can talk to the virtual tutor and also the tutor lecture will be converted to text for reference to student. This makes learning easier for students who have visual impairments or prefer speaking instead of typing.
-
-### Other IBM technology used
-- [Cloud Object Storage](https://cloud.ibm.com/objectstorage/create?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2FY2F0ZWdvcnk9c3RvcmFnZSNzZXJ2aWNlcw%3D%3D)
-This service helped us to store our models and provided the expected scalability in a seamless way along with greater resiliency and make secure storage for data, allowing us to store educational resources and multimedia content efficiently
-
 ### The idea
 
 **AI-Powered Learning Assistants for Inclusive Education**
@@ -58,6 +48,16 @@ To solve the problems of personalizing education and making it accessible for al
 * **Evaluator & Feedback Agent**: After students complete a quiz, this agent evaluates their answers and provides detailed feedback. It highlights what the student did well and points out areas where they might need more practice. Additionally, it generates a report that gives a clear overview of the student’s performance, offering helpful suggestions for improvement. This way, students receive constructive feedback that guides them on what to focus on next.
   
 This AI-powered learning system personalizes the educational experience for every student, ensuring equitable access to quality education. It continuously adapts to each student’s progress. By acting as a personal tutor, this system empowers all students, regardless of their background or learning challenges, to reach their full potential and thrive in their educational journey.
+
+### IBM AI service(s) used
+- [IBM Watson Machine learning](https://cloud.ibm.com/catalog/services/watson-machine-learning)
+  We used IBM Watson Machine Learning to run and manage our AI models that help the learning system work effectively. This tool allows us to create personalized responses, quizzes, and feedback for students, making sure the system adapts to each student's needs.
+- [IBM Watsonx Prompt Lab (with Granite-20B Multilingual foundational model)](https://www.ibm.com/watsonx?utm_content=SRCWW&p1=Search&p4=43700076605828901&p5=e&gclid=CjwKCAjwysipBhBXEiwApJOcuz1PY3AhyOywNZ75iQZFK1tdjMKvi0V0VIvdY_qeas-M7QReiaDpixoCI2AQAvD_BwE&gclsrc=aw.ds) - IBM Watsonx Prompt Lab, which uses the Granite-20B Multilingual model, powers our AI virtual tutor. It helps the virtual tutor understand and answer student questions in different languages. This means students get explanations that fit their understanding, no matter their language or background.
+- [IBM Watson Speech to Text](https://cloud.ibm.com/catalog/services/spech-to-text) - Watson Speech to Text changes spoken words into written text. We used this feature so students can talk to the virtual tutor and also the tutor lecture will be converted to text for reference to student. This makes learning easier for students who have visual impairments or prefer speaking instead of typing.
+
+### Other IBM technology used
+- [Cloud Object Storage](https://cloud.ibm.com/objectstorage/create?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2FY2F0ZWdvcnk9c3RvcmFnZSNzZXJ2aWNlcw%3D%3D)
+This service helped us to store our models and provided the expected scalability in a seamless way along with greater resiliency and make secure storage for data, allowing us to store educational resources and multimedia content efficiently
 
 ### Demo video
 

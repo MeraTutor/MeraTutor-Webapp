@@ -120,7 +120,7 @@ MeraTutor aims to create a fairer education system where every student has the c
 
 
 ### Project roadmap
-![Roadmap](./images/Roadmap.jpg)
+![Roadmap](./images/Roadmap.jpeg)
 
 ### Built with
 ![Techonology](./images/arch1.jpeg)

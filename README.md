@@ -50,10 +50,10 @@ To solve the problems of personalizing education and making it accessible for al
 This AI-powered learning system personalizes the educational experience for every student, ensuring equitable access to quality education. It continuously adapts to each student’s progress. By acting as a personal tutor, this system empowers all students, regardless of their background or learning challenges, to reach their full potential and thrive in their educational journey.
 
 ### IBM AI service(s) used
-- [IBM Watson Machine learning](https://cloud.ibm.com/catalog/services/watson-machine-learning)
-  We used IBM Watson Machine Learning to run and manage our AI models that help the learning system work effectively. This tool allows us to create personalized responses, quizzes, and feedback for students, making sure the system adapts to each student's needs.
 - [IBM Watsonx Prompt Lab (with Granite-20B Multilingual foundational model)](https://www.ibm.com/watsonx?utm_content=SRCWW&p1=Search&p4=43700076605828901&p5=e&gclid=CjwKCAjwysipBhBXEiwApJOcuz1PY3AhyOywNZ75iQZFK1tdjMKvi0V0VIvdY_qeas-M7QReiaDpixoCI2AQAvD_BwE&gclsrc=aw.ds) - IBM Watsonx Prompt Lab, which uses the Granite-20B Multilingual model, powers our AI virtual tutor. It helps the virtual tutor understand and answer student questions in different languages. This means students get explanations that fit their understanding, no matter their language or background.
 - [IBM Watson Speech to Text](https://cloud.ibm.com/catalog/services/spech-to-text) - Watson Speech to Text changes spoken words into written text. We used this feature so students can talk to the virtual tutor and also the tutor lecture will be converted to text for reference to student. This makes learning easier for students who have visual impairments or prefer speaking instead of typing.
+- [IBM Watson Machine learning](https://cloud.ibm.com/catalog/services/watson-machine-learning)
+  We used IBM Watson Machine Learning to run and manage our AI models that help the learning system work effectively. This tool allows us to create personalized responses, quizzes, and feedback for students, making sure the system adapts to each student's needs.
 
 ### Other IBM technology used
 - [Cloud Object Storage](https://cloud.ibm.com/objectstorage/create?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2FY2F0ZWdvcnk9c3RvcmFnZSNzZXJ2aWNlcw%3D%3D)

@@ -198,7 +198,7 @@ In Browser run with 127.0.0.1:5000
 
 
 ### Live Demo
-[Smartly IoT Realtime Dashboard Demo](http://169.51.206.185:31539/)
+[MeraTutor Demo Link](http:///)
 
 
 ### Team

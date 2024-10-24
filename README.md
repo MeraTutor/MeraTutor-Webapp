@@ -44,7 +44,7 @@ It also supports students with special learning needs by giving personalized att
 To solve the problems of personalizing education and making it accessible for all students, we are proposing an innovative AI-powered learning system that acts like a personal tutor for every student. This system has three intelligent agents that work together to create a well-rounded learning experience tailored to individual needs.
 
 * **Virtual Tutor**: This assistant acts like a friendly teacher. It explains lessons in a way that’s easy to understand and answers any questions students might have. If a student is struggling with a topic, the Virtual Tutor changes its explanations to fit the student’s level of understanding. This ensures that no student feels lost or left behind, allowing everyone to learn at their own pace.
-* **Quiz Generator**: When students feel confident in what they’ve learned, it can create quizzes to test their knowledge. These quizzes are not one-size-fits-all; they adapt to focus on the specific topics that each student has studied. This means students can practice what they need to work on most, making studying more effective and relevant to their learning journey.
+* **Quiz Generator**: To make students feel confident in what they’ve learned, it can create quizzes to test their knowledge. These quizzes are not one-size-fits-all; they adapt to focus on the specific topics that each student has studied. This means students can practice what they need to work on most, making studying more effective and relevant to their learning journey.
 * **Evaluator & Feedback Agent**: After students complete a quiz, this agent evaluates their answers and provides detailed feedback. It highlights what the student did well and points out areas where they might need more practice. Additionally, it generates a report that gives a clear overview of the student’s performance, offering helpful suggestions for improvement. This way, students receive constructive feedback that guides them on what to focus on next.
   
 This AI-powered learning system personalizes the educational experience for every student, ensuring equitable access to quality education. It continuously adapts to each student’s progress. By acting as a personal tutor, this system empowers all students, regardless of their background or learning challenges, to reach their full potential and thrive in their educational journey.
@@ -106,7 +106,7 @@ Our solution(MeraTutor) centers around an innovative AI-powered virtual teacher 
 
 MeraTutor includes several smart features that work together to enhance learning:
 
-**Virtual Tutor**: This friendly assistant explains lessons clearly and answers questions. It adapts its explanations based on each student’s understanding, ensuring everyone feels supported in their learning.
+**Virtual Tutor**: This friendly assistant explains lessons clearly and answers questions in their regional language if needed. It adapts its explanations based on each student’s understanding, ensuring everyone feels supported in their learning.
 
 **Quiz Generator**: When students feel ready, MeraTutor creates personalized quizzes to test their knowledge. These quizzes help reinforce what they’ve learned and identify areas where they need more practice.
 

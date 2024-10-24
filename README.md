@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Contents
-1. [Short Description](#short-description)
+1. [Problem Statement](#Problem-Statement)
 1. [Demo Video](#demo-video)
 1. [The Architecture](#architecture-overview)
 1. [Long Description](#long-description)
@@ -15,11 +15,8 @@
 1. [The Team](#team)
 1. [License](#license)
 
-## Short Description 
 
-**MeraTutor** - GenerativeAI-powered platform that provides personalized learning experience.
-
-### Problem Statement
+## Problem Statement
 
 The current education system, while robust in many ways, often fails to address the individual learning needs of students. Major challenges include:
 
@@ -110,7 +107,7 @@ Our solution(MeraTutor) centers around an innovative AI-powered virtual teacher 
 
 
     
-**How MeraTutor Works**
+## How MeraTutor Works
 
 MeraTutor includes several smart features that work together to enhance learning:
 
@@ -122,77 +119,25 @@ MeraTutor includes several smart features that work together to enhance learning
 
 **Evaluator & Feedback Agent**: After quizzes, students get detailed feedback on their answers. This agent highlights what they did well and points out where they can improve, giving them useful insights for their learning.
 
-**Continuous Learning**: MeraTutor keeps track of how each student is doing and adjusts its approach to provide ongoing support. If a student struggles with a topic, the Virtual Tutor can explain it again in a simpler way, making sure they understand before moving on.
-
-MeraTutor makes learning fun and engaging through interactive activities. By offering personalized attention and continuous support, it helps students stay motivated and connected, no matter their circumstances.
-
-MeraTutor aims to create a fairer education system where every student has the chance to learn, grow, and succeed. By using technology to provide customized learning experiences, MeraTutor helps students overcome challenges and reach their full potential in their educational journeys.
+**Continuous Learning**: MeraTutor keeps track of how each student is doing and adjusts its approach to provide ongoing support. If a student struggles with a topic, the Virtual Tutor can explain it again in a simpler way, making sure they understand before moving on. MeraTutor makes learning fun and engaging through interactive activities. By offering personalized attention and continuous support, it helps students stay motivated and connected, no matter their circumstances. MeraTutor aims to create a fairer education system where every student has the chance to learn, grow, and succeed. By using technology to provide customized learning experiences, MeraTutor helps students overcome challenges and reach their full potential in their educational journeys.
 
 
-### Project roadmap
+## Project roadmap
 ![Roadmap](./images/Roadmap.jpeg)
 
-### Built with
+
+
+## Built with
 ![Techonology](./images/arch1.jpeg)
 
-### Getting started
-
-### Setup
-
-This code works on Python3+ versions.
-
-### Clone the repository
-
-## With Docker:
-
-$ git clone https://github.com/MeraTutor/MeraTutor-Webapp.git
-
-$ MeraTutor-Webapp/
-
-## Install Docker
-https://docs.docker.com/engine/install/ubuntu/
-
-## Build docker image
-
-$ docker build -t aitutor_docker .
-
-Note: ensure in app.py port is mentiond as 8080
-
-$ docker run -it -p 8080:8080 aitutor_docker
-
-In Browser run with 127.0.0.1:8080
-
-## To push:
-
-$docker login
-
-  Username: XXXX
-  
-  Password: XXXX
-  
-$ docker tag aitutor_docker aitutor/aitutor_docker:1.0.0
-
-$ docker push aitutor/aitutor_docker:1.0.0
-
-## Without Docker:
-
-## Install the required libraries
-
-$ pip3 install -r requirements.txt
 
 ## Clone the repository
 
 $ git clone https://github.com/MeraTutor/MeraTutor-Webapp.git
 
-$ MeraTutor-Webapp/
-
-## Run app.py
+$ cd MeraTutor-Webapp/
 
 $ python3 app.py 
-
-or
-
-$ python -m flask run
 
 In Browser run with 127.0.0.1:5000
 

@@ -7,7 +7,7 @@
 ## Contents
 1. [Introduction](#Introduction)
 1. [Problem Statement](#Problem-Statement)
-1. [Our Solution](#long-description)
+1. [Our Solution](#Our-Solution)
 1. [The Architecture](#architecture-overview)
 1. [Demo Video](#demo-video)
 1. [Live demo](#live-demo)

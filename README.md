@@ -17,7 +17,7 @@
 
 ## Short Description 
 
-**MeraTutor** - AI-powered virtual teacher ensures continuous, personalized learning remotely.
+**MeraTutor** - GenerativeAI-powered platform that provides personalized learning experience.
 
 ### Problem Statement
 
@@ -54,10 +54,10 @@ To solve the problems of personalizing education and making it accessible for al
 This AI-powered learning system personalizes the educational experience for every student, ensuring equitable access to quality education. It continuously adapts to each student’s progress. By acting as a personal tutor, this system empowers all students, regardless of their background or learning challenges, to reach their full potential and thrive in their educational journey.
 
 ### IBM AI service(s) used
-- [IBM Watsonx Prompt Lab (with Granite-20B Multilingual foundational model)](https://www.ibm.com/watsonx?utm_content=SRCWW&p1=Search&p4=43700076605828901&p5=e&gclid=CjwKCAjwysipBhBXEiwApJOcuz1PY3AhyOywNZ75iQZFK1tdjMKvi0V0VIvdY_qeas-M7QReiaDpixoCI2AQAvD_BwE&gclsrc=aw.ds) - IBM Watsonx Prompt Lab, which uses the Granite-20B Multilingual model, powers our AI virtual tutor. It helps the virtual tutor understand and answer student questions in different languages. This means students get explanations that fit their understanding, no matter their language or background.
+- [IBM Watsonx Prompt Lab (with Granite-20B Multilingual foundational model)](https://www.ibm.com/watsonx?utm_content=SRCWW&p1=Search&p4=43700076605828901&p5=e&gclid=CjwKCAjwysipBhBXEiwApJOcuz1PY3AhyOywNZ75iQZFK1tdjMKvi0V0VIvdY_qeas-M7QReiaDpixoCI2AQAvD_BwE&gclsrc=aw.ds) - IBM Watsonx Prompt Lab, which uses the Granite-20B Multilingual model, powers our AI virtual tutor. It helps the virtual tutor understand and answer student questions in different languages. This means students get explanations that fit their understanding, regardless of their language or background.
 - [IBM Watson Speech to Text](https://cloud.ibm.com/catalog/services/spech-to-text) - Watson Speech to Text changes spoken words into written text. We used this feature so students can talk to the virtual tutor and also the tutor lecture will be converted to text for reference to student. This makes learning easier for students who have visual impairments or prefer speaking instead of typing.
 - [IBM Watson Machine learning](https://cloud.ibm.com/catalog/services/watson-machine-learning)
-  We used IBM Watson Machine Learning to run and manage our AI models that help the learning system work effectively. This tool allows us to create personalized responses, quizzes, and feedback for students, making sure the system adapts to each student's needs.
+  We used IBM Watson Machine Learning to experiment with Some of our project features.
 
 ### Other IBM technology used
 - [Cloud Object Storage](https://cloud.ibm.com/objectstorage/create?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2FY2F0ZWdvcnk9c3RvcmFnZSNzZXJ2aWNlcw%3D%3D)
@@ -67,18 +67,16 @@ This service helped us to store our models and provided the expected scalability
 
 [![Demo](./images/tutor.jpeg)](https://www.youtube.com/watch?v=7Wijl7lTYAI "MeraTutor")
 
-For GitHub use CTRL+click (on Windows and Linux) or CMD+click (on MacOS) on the link to open in new window.
-Please click on the image to view the video on YouTube.
 
 ### Architecture Overview
 
 ![Architecture](./images/arch.jpeg)
 
-1. Student ingests the books and study material into the MeraTutor. Also he sets the parameters to personalize his learning. 
+1. Student ingests the books and study material into the MeraTutor. 
 
 2. The student then asks the question
 
-3. Based on the question the appropriate SME (AI agent) is called to answer the question. 
+3. Based on the question the appropriate Subject teacher (AI agent) is called to answer the question. 
 
 4. These AI agents get their power from IBM watsonx LLM
 
@@ -90,7 +88,7 @@ Please click on the image to view the video on YouTube.
 
 MeraTutor is a smart AI-powered virtual teacher designed to help students learn in a way that fits their needs, making education accessible for everyone. It aims to solve the problems in the current education system, especially for students from underserved communities or those with special needs, by providing a personalized learning experience that adapts to each student’s situation.
 
-By leveraging the power of AI and technology, our solution(MeraTutor) aims to bridge the educational divide, ensuring that students in vulnerable communities receive the quality education they deserve. This solution not only helps prevent learning loss during critical times but also empowers students to take control of their learning journey. Ultimately, we envision a future where every child, regardless of their circumstances, has access to engaging, personalized, and effective education, enabling them to thrive academically and beyond.
+By leveraging the power of Generative AI, our solution(MeraTutor) aims to bridge the educational divide, ensuring that students in vulnerable communities receive the quality education they deserve. This solution not only helps prevent learning loss during critical times but also empowers students to take control of their learning journey. Ultimately, we envision a future where every child, regardless of their circumstances, has access to engaging, personalized, and effective education, enabling them to thrive academically and beyond.
 
 Our solution(MeraTutor) centers around an innovative AI-powered virtual teacher designed to address the educational disruptions faced by students in vulnerable communities, particularly those impacted by climate change, conflict, or economic hardship. This virtual teacher provides a dynamic and interactive learning experience that ensures continuous education, even when students cannot physically attend school.
 
@@ -103,18 +101,14 @@ Our solution(MeraTutor) centers around an innovative AI-powered virtual teacher 
 
 **Continuous Access to Education**: With our virtual teacher, students can access learning materials anytime and anywhere, overcoming barriers posed by school closures or geographic isolation. This flexibility allows them to continue their studies at their convenience, ensuring they don’t fall behind.
 
-**Feedback and Assessment**: The virtual teacher provides immediate feedback on assignments/quizzes, helping students understand their mistakes and learn from them. This instant feedback loop fosters a growth mindset and encourages continuous improvement.
-
+**Feedback and Assessment**: The virtual teacher provides immediate feedback on quizzes, helping students understand their mistakes and learn from them. This instant feedback loop fosters a growth mindset and encourages continuous improvement.
 
 **Content Adaptation for Understanding**: If a student struggles with a topic, the virtual teacher can deliver the same lesson in a different, more comprehensible manner. It can present information using various formats, such as videos, diagrams, or simplified explanations, catering to diverse learning preferences.
 
-**Assignments and Reinforcement**: After each lesson, the virtual teacher provides relevant assignments/quizzes tailored to reinforce what students have learned. These tasks help solidify knowledge and ensure that students can apply their understanding in practical contexts.
+**Assignments and Reinforcement**: After each lesson, the virtual teacher provides relevant assignments tailored to reinforce what students have learned. These tasks help solidify knowledge and ensure that students can apply their understanding in practical contexts.
 
-**Culturally Relevant Materials**: We emphasize inclusivity by integrating culturally relevant content and materials that resonate with the students' backgrounds, making learning more relatable and meaningful.
 
-**Emergency Preparedness**: Our solution includes features that allow for updates and adjustments in the curriculum in response to emergency situations, ensuring that education can continue despite external challenges.
-    
-    
+
     
 **How MeraTutor Works**
 
@@ -122,7 +116,9 @@ MeraTutor includes several smart features that work together to enhance learning
 
 **Virtual Tutor**: This friendly assistant explains lessons clearly and answers questions in their regional language if needed. It adapts its explanations based on each student’s understanding, ensuring everyone feels supported in their learning.
 
-**Quiz Generator**: When students feel ready, MeraTutor creates personalized quizzes to test their knowledge. These quizzes help reinforce what they’ve learned and identify areas where they need more practice.
+**Quiz Agent**: When students feel ready, MeraTutor creates personalized quizzes to test their knowledge. These quizzes help reinforce what they’ve learned and identify areas where they need more practice.
+
+**Assignment Agent**: The assignments are crafted to help solidify the concepts learned. These assignments also include hands on activities to better understand and relate the concept. 
 
 **Evaluator & Feedback Agent**: After quizzes, students get detailed feedback on their answers. This agent highlights what they did well and points out where they can improve, giving them useful insights for their learning.
 

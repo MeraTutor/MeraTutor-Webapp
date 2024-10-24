@@ -1,4 +1,4 @@
-# MeraTutor
+# MeraTutor: Bridging Educational Gaps with AI-Powered Learning
 
 ![Logo](./images/tutor.jpeg)
 

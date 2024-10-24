@@ -202,7 +202,7 @@ In Browser run with 127.0.0.1:5000
 
 
 ### Live Demo
-[MeraTutor Demo Link](http:///)
+[MeraTutor App Link](https://meratutorai.pythonanywhere.com/)
 
 
 ### Team

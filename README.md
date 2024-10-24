@@ -18,8 +18,9 @@
 
 
 ## Introduction
-Education is a fundamental right that has the potential to empower individuals, uplift communities, and drive societal progress. However, in many parts of the world, access to quality education is not universal, and even where it is available, significant gaps remain in inclusivity and equity. Students from disadvantaged backgrounds—whether due to socioeconomic status, location, disabilities, or other factors—often struggle to access personalized, quality education.
+Imagine a world where every student, regardless of their background or location, has access to a personalized, world-class education. A world where AI isn't just a tool, but a catalyst for equity and inclusivity in learning. Unfortunately, this vision is still a distant reality for many. The digital divide, coupled with the challenges of traditional education systems, leaves countless students underserved.
 
+As the [UNESCO report](https://www.unesco.org/en/articles/how-generative-ai-reshaping-education-asia-pacific) highlights, AI offers a promising solution to these challenges. By leveraging AI, we can create adaptive learning environments, personalize instruction, and bridge the gap between students' individual needs and the resources available to them. However, to fully realize the potential of AI in education, we must address the underlying issues of equity and accessibility.
 
 ## Problem Statement
 

@@ -81,8 +81,7 @@ How MeraTutor works:
 
 
 ## Demo video
-[![Demo](./images/tutor.jpeg)](https://www.youtube.com/watch?v=6-YGA2gjQzw)
-https://www.youtube.com/watch?v=6-YGA2gjQzw 
+(https://www.youtube.com/watch?v=6-YGA2gjQzw)
 
 
 ## Live Demo
